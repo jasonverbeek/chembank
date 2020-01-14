@@ -37,10 +37,15 @@ CLI tool to store and search projects and chemical interractions
     }
  ```
 
+### WIP
+- new list/search with indexes
+- use Experiment class and pre-format all values for search
+- use indexes
+- find s way to enhance indexes, potentially by moving every accessed entry to the top of the index, or sort by nr. of reads total, or mixed in segments of X(5?)
+
 ### TODO
 - indexes
 - chemicals
 - linked data for chemical interactions/supplies
 - chemical interactions
-- language support for variables
 - and more

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "sullfuricacid37",
+        "label": {
+            "en": "37% Sulfuric Acid"
+        },
+        "reactions": {
+            "tools.heatsource" : {
+                "result": "chemicals.sulfuricacid98",
+                "process_revisions":["dac1cab6-eee3-4903-8a1a-ea33ad744528"]
+            }
+        }
+    }
+]
