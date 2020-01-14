@@ -25,10 +25,9 @@ class DataFormatter(object):
     def prn(self, line, test=False):
         vs = variable_re.findall(line)
         result = line
-        for data in vs:
-            if not self._exists(*data):
+        for category, key in vs:
+            if not self._exists(category, key):
                 return self._return(line, test)
-            category, key = data
             value = getattr(variables[category], key)
             result = result.replace("{{%s.%s}}" % (category, key), value)
         return self._return(result, test)
